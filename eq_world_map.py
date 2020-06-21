@@ -10,6 +10,7 @@ with open(filename) as f:
 
 # Store the data in a dictionary
 all_eq_dicts = all_eq_data['features']
+# Store the name of the data
 plotname = all_eq_data['metadata']['title']
 
 # Locate magnitude data
